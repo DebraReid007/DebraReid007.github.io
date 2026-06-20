@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">Warm rum tasting table</title>
+  <desc id="desc">A cozy tabletop scene with tasting glasses, notes, citrus, and Rochester map accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#6e3324"/>
+      <stop offset=".46" stop-color="#2d241a"/>
+      <stop offset="1" stop-color="#173d32"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="44%" cy="34%" r="64%">
+      <stop offset="0" stop-color="#ffd98a" stop-opacity=".7"/>
+      <stop offset=".55" stop-color="#c6792c" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#111" stop-opacity=".5"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="700" fill="url(#bg)"/>
+  <rect width="1000" height="700" fill="url(#glow)"/>
+  <path d="M0 480 C190 400 310 455 510 394 C690 340 794 384 1000 318 V700 H0Z" fill="#21140d" opacity=".88"/>
+  <path d="M95 214 C230 170 375 166 522 194 C672 222 798 205 930 150" fill="none" stroke="#f6e4bb" stroke-width="4" opacity=".2"/>
+  <path d="M120 252 C272 222 407 242 540 284 C656 321 790 315 910 274" fill="none" stroke="#7ec1c4" stroke-width="7" opacity=".24"/>
+
+  <g transform="translate(388 228)">
+    <ellipse cx="105" cy="326" rx="180" ry="26" fill="#090706" opacity=".32"/>
+    <path d="M48 56 C82 32 139 32 171 57 L154 262 C128 279 89 279 65 262 Z" fill="#f6e4bb" opacity=".25"/>
+    <path d="M64 95 C93 82 129 82 155 96 L144 227 C121 238 94 237 73 226 Z" fill="#c6792c" opacity=".78"/>
+    <ellipse cx="110" cy="61" rx="70" ry="21" fill="#f6e4bb" opacity=".42"/>
+    <ellipse cx="110" cy="61" rx="54" ry="12" fill="#2b150d" opacity=".55"/>
+    <rect x="98" y="262" width="24" height="68" fill="#f6e4bb" opacity=".22"/>
+    <ellipse cx="110" cy="338" rx="78" ry="15" fill="#f6e4bb" opacity=".2"/>
+  </g>
+
+  <g transform="translate(118 405) rotate(-7)">
+    <rect x="0" y="0" width="296" height="196" rx="8" fill="#f2ddaf"/>
+    <path d="M34 54 H248 M34 91 H227 M34 128 H260" stroke="#3a2417" stroke-width="6" opacity=".28" stroke-linecap="round"/>
+    <path d="M210 145 C235 129 263 131 279 151" fill="none" stroke="#d85a47" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(676 365) rotate(10)">
+    <ellipse cx="118" cy="118" rx="134" ry="36" fill="#090706" opacity=".26"/>
+    <circle cx="102" cy="94" r="82" fill="#d85a47"/>
+    <circle cx="102" cy="94" r="52" fill="#f6e4bb"/>
+    <path d="M92 26 C110 56 137 70 169 74 C134 89 116 114 106 154 C88 117 63 101 24 96 C61 80 82 55 92 26Z" fill="#173d32" opacity=".84"/>
+  </g>
+
+  <g opacity=".86">
+    <path d="M744 119 C790 76 850 52 922 52 C892 108 837 147 758 163Z" fill="#173d32"/>
+    <path d="M772 140 C821 112 858 94 907 70" stroke="#a9c985" stroke-width="6" opacity=".55" stroke-linecap="round"/>
+    <path d="M60 126 C112 79 180 58 256 66 C221 124 157 162 74 170Z" fill="#225143"/>
+    <path d="M94 147 C143 118 190 96 240 80" stroke="#a9c985" stroke-width="6" opacity=".55" stroke-linecap="round"/>
+  </g>
+
+  <rect x="0" y="0" width="1000" height="700" fill="none" stroke="#1d1812" stroke-width="16" opacity=".32"/>
+</svg>

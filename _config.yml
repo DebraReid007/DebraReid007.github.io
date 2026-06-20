@@ -1,1 +1,26 @@
 title: Rumchester
+tagline: Rochester, NY's only Rum Group
+description: A small Rochester rum group for tastings, stories, bottle shares, and low-key local gatherings.
+instagram_url: https://www.instagram.com/rumchester/
+logo: assets/images/rumchester-logo.png
+
+markdown: kramdown
+timezone: America/New_York
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - tailwind.config.js
+  - tsconfig.app.json
+  - tsconfig.json
+  - tsconfig.node.json
+  - vite.config.ts
+  - src
+  - public
+  - dist
+  - tmp

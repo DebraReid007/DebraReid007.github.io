@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<section id="top" class="hero">
+  <img class="hero-image" src="assets/images/hero-rum-route.svg" alt="" />
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">{{ page.hero_eyebrow }}</p>
+    <img class="hero-logo" src="{{ site.logo }}" alt="{{ site.title }}" />
+    <p class="hero-summary">{{ page.hero_summary }}</p>
+    <div class="button-row">
+      <a class="button primary" href="{{ site.instagram_url }}">{{ page.primary_button_label }}</a>
+      <a class="button secondary" href="#events">{{ page.secondary_button_label }}</a>
+    </div>
+  </div>
+</section>
+
+<section id="story" class="section story-section">
+  <div class="section-grid">
+    <div>
+      <p class="eyebrow dark">{{ page.story_eyebrow }}</p>
+      <h1>{{ page.story_heading }}</h1>
+      <div class="story-copy">
+        {{ content }}
+      </div>
+      <ul class="principles" aria-label="Rumchester principles">
+        {% for principle in page.principles %}
+          <li>{{ principle }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <figure class="story-image">
+      <img src="assets/images/story-tasting.svg" alt="Warm tabletop rum tasting scene." />
+    </figure>
+  </div>
+</section>
+
+<section id="events" class="section events-section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Events</p>
+      <h2>Upcoming pours</h2>
+    </div>
+    <a class="button secondary" href="{{ site.instagram_url }}">Follow for updates</a>
+  </div>
+
+  <div class="event-grid">
+    {% assign sorted_events = site.data.events | sort: "start_time" %}
+    {% for event in sorted_events %}
+      <article class="event-card">
+        <img src="{{ event.image }}" alt="" />
+        <div class="event-body">
+          <p class="event-date">{{ event.start_time | date: "%a, %b %-d at %-I:%M %p" }}</p>
+          <h3>{{ event.title }}</h3>
+          <p>{{ event.description }}</p>
+          <p class="event-location">{{ event.location }}</p>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="gallery" class="section gallery-section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow dark">Gallery</p>
+      <h2>Small scenes from the route.</h2>
+    </div>
+  </div>
+
+  <div class="gallery-grid">
+    {% for image in site.data.gallery %}
+      <figure class="gallery-card">
+        <img src="{{ image.image }}" alt="{{ image.alt }}" />
+        <figcaption>{{ image.title }}</figcaption>
+      </figure>
+    {% endfor %}
+  </div>
+</section>
