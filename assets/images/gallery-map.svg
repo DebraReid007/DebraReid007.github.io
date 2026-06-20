@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Event map tabletop</title>
+  <desc id="desc">A parchment map tabletop with blank event cards, citrus, flowers, and a tasting glass.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6e4bb"/>
+      <stop offset=".48" stop-color="#c98845"/>
+      <stop offset="1" stop-color="#173d32"/>
+    </linearGradient>
+    <pattern id="streets" width="66" height="66" patternUnits="userSpaceOnUse">
+      <path d="M0 12 H66 M0 42 H66 M18 0 V66 M50 0 V66" stroke="#3a2417" stroke-width="2" opacity=".16"/>
+      <path d="M0 58 C22 42 39 78 66 51" fill="none" stroke="#2d5d6a" stroke-width="4" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="900" fill="#1d1812"/>
+  <rect x="42" y="42" width="816" height="816" rx="8" fill="url(#paper)"/>
+  <rect x="42" y="42" width="816" height="816" rx="8" fill="url(#streets)"/>
+  <path d="M630 18 C724 124 660 204 744 306 C842 425 754 545 832 700 C858 750 860 806 836 880" fill="none" stroke="#7ec1c4" stroke-width="33" opacity=".34"/>
+  <path d="M621 16 C708 123 644 205 728 308 C822 424 735 546 814 704 C838 754 840 806 816 878" fill="none" stroke="#173d32" stroke-width="11" opacity=".72"/>
+  <g transform="translate(110 514) rotate(-8)">
+    <rect x="0" y="0" width="320" height="172" rx="8" fill="#fff3cf" opacity=".94"/>
+    <path d="M34 48 H240 M34 83 H286 M34 118 H210" stroke="#3a2417" stroke-width="8" opacity=".19" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(206 678) rotate(7)">
+    <rect x="0" y="0" width="300" height="126" rx="8" fill="#f2ddaf" opacity=".88"/>
+    <path d="M30 44 H226 M30 78 H250" stroke="#3a2417" stroke-width="7" opacity=".19" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(524 484)">
+    <ellipse cx="98" cy="260" rx="138" ry="22" fill="#090706" opacity=".28"/>
+    <path d="M48 54 C78 34 126 34 156 55 L142 210 C120 224 84 224 62 210Z" fill="#f6e4bb" opacity=".25"/>
+    <path d="M64 90 C88 78 116 78 140 90 L132 174 C113 184 91 184 72 174Z" fill="#c6792c" opacity=".76"/>
+    <ellipse cx="102" cy="54" rx="60" ry="18" fill="#f6e4bb" opacity=".38"/>
+    <ellipse cx="102" cy="54" rx="45" ry="10" fill="#2b140c" opacity=".56"/>
+  </g>
+  <g transform="translate(592 166) rotate(11)">
+    <circle cx="92" cy="92" r="78" fill="#d85a47"/>
+    <circle cx="92" cy="92" r="50" fill="#f6e4bb"/>
+    <path d="M89 27 C106 57 132 70 166 73 C132 90 116 113 105 151 C87 117 63 102 26 96 C60 81 80 56 89 27Z" fill="#173d32" opacity=".84"/>
+  </g>
+  <path d="M84 140 C152 86 242 65 356 82 C300 150 202 194 94 198Z" fill="#173d32" opacity=".9"/>
+  <path d="M122 174 C184 135 250 105 334 90" stroke="#a9c985" stroke-width="8" opacity=".55" stroke-linecap="round"/>
+  <rect x="42" y="42" width="816" height="816" rx="8" fill="none" stroke="#1d1812" stroke-width="16" opacity=".34"/>
+</svg>

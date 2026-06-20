@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Rum shelf still life</title>
+  <desc id="desc">A warm shelf with ceramic mugs, glassware, citrus, rattan, and botanical accents.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#743b2d"/>
+      <stop offset=".48" stop-color="#2d2117"/>
+      <stop offset="1" stop-color="#173d32"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="72%" cy="22%" r="76%">
+      <stop offset="0" stop-color="#ffd48b" stop-opacity=".72"/>
+      <stop offset=".48" stop-color="#c6792c" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#100d0a" stop-opacity=".66"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#wall)"/>
+  <rect width="900" height="900" fill="url(#halo)"/>
+  <rect x="74" y="590" width="752" height="70" rx="8" fill="#3a2417"/>
+  <rect x="100" y="650" width="700" height="60" rx="6" fill="#21140d"/>
+  <g transform="translate(132 300)">
+    <ellipse cx="122" cy="304" rx="150" ry="25" fill="#090706" opacity=".28"/>
+    <path d="M42 82 C64 42 154 36 196 80 L176 268 C145 292 83 292 56 268Z" fill="#245043"/>
+    <path d="M78 110 C104 96 140 96 164 112 L154 224 C132 238 102 238 82 224Z" fill="#c6792c" opacity=".68"/>
+    <ellipse cx="119" cy="80" rx="78" ry="24" fill="#f6e4bb" opacity=".24"/>
+  </g>
+  <g transform="translate(388 252)">
+    <ellipse cx="98" cy="352" rx="140" ry="23" fill="#090706" opacity=".3"/>
+    <path d="M46 64 C80 37 132 37 164 64 L148 264 C122 282 86 282 62 264Z" fill="#f6e4bb" opacity=".28"/>
+    <path d="M62 106 C90 88 122 88 148 106 L138 218 C116 230 91 230 72 218Z" fill="#c6792c" opacity=".76"/>
+    <ellipse cx="105" cy="64" rx="67" ry="20" fill="#f6e4bb" opacity=".38"/>
+    <ellipse cx="105" cy="64" rx="50" ry="11" fill="#2b140c" opacity=".58"/>
+  </g>
+  <g transform="translate(606 318)">
+    <ellipse cx="86" cy="284" rx="122" ry="21" fill="#090706" opacity=".26"/>
+    <path d="M38 52 C62 30 110 30 136 52 L124 238 C102 254 72 254 50 238Z" fill="#291911"/>
+    <path d="M52 96 C76 83 100 83 122 96 L114 206 C96 216 76 216 60 206Z" fill="#a8572b" opacity=".86"/>
+    <ellipse cx="87" cy="53" rx="54" ry="17" fill="#f6e4bb" opacity=".36"/>
+  </g>
+  <g transform="translate(624 112) rotate(13)">
+    <circle cx="94" cy="94" r="82" fill="#d85a47"/>
+    <circle cx="94" cy="94" r="52" fill="#f6e4bb"/>
+    <path d="M91 27 C109 57 134 70 169 74 C134 91 116 115 106 156 C88 119 62 104 24 98 C60 82 82 56 91 27Z" fill="#173d32" opacity=".84"/>
+  </g>
+  <path d="M82 164 C160 94 260 68 388 86 C322 172 214 220 94 222Z" fill="#173d32" opacity=".9"/>
+  <path d="M130 198 C205 151 282 116 366 96" stroke="#a9c985" stroke-width="9" opacity=".55" stroke-linecap="round"/>
+  <path d="M726 470 C764 428 810 407 862 406 C838 455 794 490 736 500Z" fill="#225143"/>
+  <rect width="900" height="900" fill="none" stroke="#1d1812" stroke-width="18" opacity=".32"/>
+</svg>

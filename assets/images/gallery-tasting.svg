@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Rum tasting still life</title>
+  <desc id="desc">A square still life with a tasting glass, citrus, map lines, and warm wood.</desc>
+  <defs>
+    <radialGradient id="light" cx="42%" cy="27%" r="72%">
+      <stop offset="0" stop-color="#ffe1a3"/>
+      <stop offset=".44" stop-color="#b96d2d"/>
+      <stop offset="1" stop-color="#173d32"/>
+    </radialGradient>
+    <pattern id="map" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 26 H72 M19 0 V72 M52 0 V72" stroke="#f6e4bb" stroke-width="2" opacity=".16"/>
+      <path d="M0 62 C24 46 42 78 72 52" fill="none" stroke="#7ec1c4" stroke-width="3" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="900" fill="#23170f"/>
+  <rect width="900" height="900" fill="url(#light)" opacity=".88"/>
+  <rect width="900" height="900" fill="url(#map)"/>
+  <path d="M0 604 C160 536 288 578 456 522 C606 472 730 496 900 440 V900 H0Z" fill="#1f130b" opacity=".82"/>
+  <g transform="translate(310 235)">
+    <ellipse cx="138" cy="441" rx="196" ry="31" fill="#090706" opacity=".34"/>
+    <path d="M60 78 C102 50 175 50 218 80 L194 344 C160 367 113 367 82 344Z" fill="#f6e4bb" opacity=".25"/>
+    <path d="M80 132 C112 111 165 111 196 133 L181 298 C151 313 119 313 95 297Z" fill="#c6792c" opacity=".82"/>
+    <ellipse cx="139" cy="82" rx="88" ry="28" fill="#f6e4bb" opacity=".38"/>
+    <ellipse cx="139" cy="81" rx="70" ry="16" fill="#2b140c" opacity=".58"/>
+    <rect x="126" y="344" width="27" height="88" fill="#f6e4bb" opacity=".2"/>
+    <ellipse cx="139" cy="442" rx="88" ry="17" fill="#f6e4bb" opacity=".18"/>
+  </g>
+  <g transform="translate(92 578) rotate(-14)">
+    <rect x="0" y="0" width="326" height="96" rx="8" fill="#f2ddaf" opacity=".96"/>
+    <path d="M34 34 H244 M34 62 H286" stroke="#3a2417" stroke-width="7" opacity=".2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(610 540) rotate(14)">
+    <circle cx="94" cy="94" r="82" fill="#d85a47"/>
+    <circle cx="94" cy="94" r="54" fill="#f6e4bb"/>
+    <path d="M90 28 C106 57 133 72 170 74 C135 92 117 116 106 157 C88 120 61 105 22 98 C60 82 82 57 90 28Z" fill="#173d32" opacity=".82"/>
+  </g>
+  <path d="M104 186 C184 124 280 96 394 110 C328 190 229 230 106 230Z" fill="#173d32" opacity=".9"/>
+  <path d="M152 210 C214 174 286 142 366 124" stroke="#a9c985" stroke-width="8" opacity=".55" stroke-linecap="round"/>
+  <rect width="900" height="900" fill="none" stroke="#1d1812" stroke-width="18" opacity=".3"/>
+</svg>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ site.description | escape }}" />
+    <title>
+      {% if page.title and page.title != "Home" %}{{ page.title }} | {% endif %}{{ site.title }} | {{ site.tagline }}
+    </title>
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/site.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" aria-label="Site header">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="{{ site.title }} home">
+          <img class="brand-logo" src="{{ site.logo }}" alt="{{ site.title }}" />
+        </a>
+        <div class="nav-links">
+          {% for item in site.data.navigation %}
+            <a href="{{ item.url }}">{{ item.label }}</a>
+          {% endfor %}
+          <a class="nav-instagram" href="{{ site.instagram_url }}">Instagram</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <img class="footer-logo" src="{{ site.logo }}" alt="{{ site.title }}" />
+        <p>{{ site.tagline }}</p>
+      </div>
+      <a href="{{ site.instagram_url }}">Instagram</a>
+    </footer>
+  </body>
+</html>
