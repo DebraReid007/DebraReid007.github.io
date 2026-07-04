@@ -1,0 +1,8 @@
+.site-header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 50;
+  border-bottom: 1px solid rgba(246, 228, 187, 0.14);
+  background: rgba(29, 24, 18, 0.82);
+  backdrop-filter: blur(16px);
+}
