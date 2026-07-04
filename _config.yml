@@ -1,1 +1,12 @@
 title: Rumchester
+tagline: Rochester, NY's only Rum Group
+description: A small Rochester rum group for tastings, stories, bottle shares, and low-key local gatherings.
+instagram_url: https://www.instagram.com/rumchester/
+logo: assets/images/rumchester-logo.png
+
+exclude:
+  - README.md
+  - src
+  - public
+  - dist
+  - tmp
