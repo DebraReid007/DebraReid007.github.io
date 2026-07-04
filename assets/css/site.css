@@ -7,6 +7,22 @@
   backdrop-filter: blur(16px);
 }
 
+.nav-shell {
+  width: min(1120px, calc(100% - 2rem));
+  height: 72px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.nav-instagram {
+  border: 1px solid rgba(198, 121, 44, 0.5);
+  border-radius: 8px;
+  padding: 0.65rem 0.8rem;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -15,5 +31,5 @@
 
 .brand-logo {
   width: min(210px, 46vw);
-  height: 72px;
+  height: auto;
 }
